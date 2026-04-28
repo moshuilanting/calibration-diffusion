@@ -3,8 +3,9 @@ FREE-VIEW ROBOT MANIPULATION: VISUOMOTOR POLICY BY CALIBRATION DIFFUSION
 
 
 ## Dataset
-Downloads [Free-View Datasets]
-(https://drive.google.com/file/d/1AoNEne1bn9rvioW0xzyE11pE74qRLxM2/view?usp=drive_link)
+It is strongly recommended to install the Isaac Sim simulation environment first.
+
+Downloads [Free-View Datasets](https://drive.google.com/file/d/1AoNEne1bn9rvioW0xzyE11pE74qRLxM2/view?usp=drive_link)
 
 
 ## Training
