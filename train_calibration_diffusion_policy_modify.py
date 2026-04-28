@@ -14,11 +14,12 @@ if __name__=="__main__":
 
     task_name = "Franka_Arrange_Bottle"
     dataset_path = "/media/jtl/ZJRR8/Free_View_DataSet" + task_name
+    diffusion_model = 'xxx.pth'
 
     base_cfg = BaseDiffusionConfig()
     base_policy = BaseDiffusionPolicy(base_cfg)
     base_policy.to(device)
-    base_policy.load_state_dict(torch.load('xxx.pth', 
+    base_policy.load_state_dict(torch.load(diffusion_model, 
                                       map_location=device, weights_only=True))
 
     cfg = DiffusionConfig()
